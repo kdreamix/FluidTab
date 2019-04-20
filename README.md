@@ -1,5 +1,5 @@
 # FluidTab
-An animated two-state tab built by constraint layout
+:last_quarter_moon:An animated two-state tab built by constraint layout
 
 ![Alt Text](https://media.giphy.com/media/QBeIDLwZdRUw71E4sa/giphy.gif)
 
@@ -16,7 +16,7 @@ allprojects {
 ~~~~
 build.gradle(Module)
 ~~~~
-implementation 'com.github.kdreamix:FluidTab:1.0.0'
+implementation 'com.github.kdreamix:FluidTab:1.0.1'
 ~~~~
 
 Usage:
