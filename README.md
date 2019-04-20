@@ -1,6 +1,9 @@
 # FluidTab
 An animated two-state tab built by constraint layout
 
+![Alt Text](https://media.giphy.com/media/QBeIDLwZdRUw71E4sa/giphy.gif)
+
+
 build.gradle(Project)
 ~~~~
 allprojects {
