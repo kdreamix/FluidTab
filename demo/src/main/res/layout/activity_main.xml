@@ -8,19 +8,20 @@
         tools:context=".MainActivity">
 
     <com.kit.ui.FluidTab android:layout_width="0dp"
-                         android:layout_height="50dp"
+                         android:layout_height="60dp"
                          android:layout_marginTop="16dp"
                          app:isAnimated="true"
-                         app:animationDuration="1000"
+                         app:animationDuration="300"
                          app:leftLabelText="Hello"
-                         app:rightLabelText="12345"
+                         app:rightLabelText="World"
                          app:tabColor="@color/yellow"
-                         app:tabBackgroundColor="@color/colorPrimary"
+                         app:tabBackgroundColor="#efefe6"
                          app:textFont="@font/montserrat_medium"
                          app:layout_constraintTop_toTopOf="parent"
                          app:layout_constraintStart_toStartOf="parent"
                          app:layout_constraintEnd_toEndOf="parent"
-                         android:id="@+id/myTab" android:layout_marginStart="32dp"
+                         android:id="@+id/myTab"
+                         android:layout_marginStart="32dp"
                          android:layout_marginEnd="32dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
