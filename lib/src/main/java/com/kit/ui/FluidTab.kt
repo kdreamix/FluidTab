@@ -162,7 +162,7 @@ class FluidTab @JvmOverloads constructor(context: Context, val attrs: AttributeS
 
 
 
-    private fun setOnTabSelectedListener(onTabSelectListener:TabSelectListener){
+    fun setOnTabSelectedListener(onTabSelectListener:TabSelectListener){
         this.onTabSelectedListener = onTabSelectListener
     }
 
