@@ -1,9 +1,17 @@
 # FluidTab
 An animated two-state tab built by constraint layout
 
-Gradle:
+build.gradle(Project)
 ~~~~
-dependencies {
-	   implementation 'com.github.kdreamix:FluidTab:1.0.0'
+allprojects {
+    repositories {
+   	...
+        maven { url 'https://jitpack.io' }
+
+    }
 }
+~~~~
+build.gradle(Module)
+~~~~
+implementation 'com.github.kdreamix:FluidTab:1.0.0'
 ~~~~
