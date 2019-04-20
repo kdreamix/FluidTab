@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FluidTab">
+        <attr name="isAnimated" format="boolean" />
+        <attr name="animationDuration" format="integer" />
+        <attr name="tabColor" format="color"/>
+        <attr name="tabBackgroundColor" format="color"/>
+        <attr name="leftLabelText" format="string"/>
+        <attr name="rightLabelText" format="string"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="textColor" format="color"/>
+        <attr name="textFont" format="reference"/>
+    </declare-styleable>
+</resources>
