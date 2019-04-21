@@ -2,6 +2,12 @@ package com.kit.ui
 
 import android.content.Context
 import android.graphics.drawable.GradientDrawable
+import android.support.annotation.ColorInt
+import android.support.annotation.FontRes
+import android.support.constraint.ConstraintLayout
+import android.support.constraint.ConstraintSet
+import android.support.v4.content.ContextCompat
+import android.support.v4.content.res.ResourcesCompat
 import android.transition.AutoTransition
 import android.transition.TransitionManager
 import android.util.AttributeSet
@@ -11,12 +17,6 @@ import android.view.animation.DecelerateInterpolator
 import android.view.animation.Interpolator
 import android.widget.FrameLayout
 import android.widget.TextView
-import androidx.annotation.ColorInt
-import androidx.annotation.FontRes
-import androidx.constraintlayout.widget.ConstraintLayout
-import androidx.constraintlayout.widget.ConstraintSet
-import androidx.core.content.ContextCompat
-import androidx.core.content.res.ResourcesCompat
 
 internal typealias TabSelectListener = (Int)-> Unit
 
