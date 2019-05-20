@@ -16,7 +16,12 @@ allprojects {
 ~~~~
 build.gradle(Module)
 ~~~~
+// Androidx
 implementation 'com.github.kdreamix:FluidTab:1.0.1'
+
+// Support lib
+implementation 'com.github.kdreamix:FluidTab:1.0.1-support'
+
 ~~~~
 
 Usage:
